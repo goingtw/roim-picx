@@ -2,6 +2,7 @@ import { error } from 'itty-router-extras';
 
 export interface Env {
   BASE_URL: string
+  COPY_URL: string //新增 
   XK: KVNamespace
   PICX: R2Bucket
 }
